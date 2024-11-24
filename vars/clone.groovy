@@ -1,5 +1,5 @@
-def call(){
+def call(url:String,branch:String){
      echo "Cloning Code"
-     git url:"https://github.com/Ammyy9908/notes-app.git",branch:"main"
+     git url:"${url}",branch:"${branch}"
      echo "Cloned"
 }
